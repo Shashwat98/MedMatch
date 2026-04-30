@@ -1,0 +1,177 @@
+MEDMATCH — Healthcare Staffing Intelligence Agent
+Project Brief
+Build a multi-agent system that automates the core workflow of a healthcare staffing platform: given a facility's open shift requirements, the agent autonomously searches for matching clinicians, verifies their credentials, ranks candidates, and produces a structured placement recommendation — with a clean web UI to demo it.
+This project is designed as a portfolio piece for an Agentic AI Engineer application at Medfinder.
+
+Directives for Claude Code
+
+1. Project Overview
+Project Name: MedMatch Agent
+Stack: Python backend, FastAPI, LangChain/LangGraph, Claude API (claude-sonnet-4-20250514), React frontend
+Deployment: Host on HuggingFace Spaces (Gradio) OR Vercel (frontend) + Railway/Render (backend)
+Repo: Public GitHub repo with clean README
+What it does in plain English:
+A recruiter pastes in a shift requirement (e.g. "ICU RN, night shift, ACLS certified, Boston MA, this weekend"). The agent breaks this into subtasks, runs them in parallel using specialised sub-agents, and returns a ranked shortlist of matching candidates with reasoning — all transparently shown in the UI so the recruiter can see exactly how the agent thinks.
+
+2. Agent Architecture
+Build a supervisor + worker multi-agent pattern using LangGraph:
+SupervisorAgent
+├── RequirementParserAgent    — extracts structured fields from free-text shift request
+├── CandidateMatcherAgent     — scores synthetic candidates against requirements
+├── CredentialVerifierAgent   — checks license validity, certifications, expiry dates
+├── AvailabilityAgent         — checks candidate availability against shift window
+└── RankingAgent              — produces final ranked list with reasoning per candidate
+Each agent is a discrete node in a LangGraph StateGraph. The supervisor routes between them based on output state.
+
+3. Module Specifications
+Module 1 — requirement_parser.py
+
+Input: raw free-text string from recruiter
+Uses Claude to extract: specialty, role, certifications_required[], location, shift_type, shift_date, urgency
+Output: structured ShiftRequirement Pydantic model
+Edge case handling: ambiguous location, missing dates, multiple specialties
+
+Module 2 — candidate_store.py
+
+Synthetic dataset of 50 clinicians (generate on first run using Claude)
+Each candidate has: name, specialty, certifications[], license_state, license_expiry, years_experience, availability[], last_placement, rating
+Store as JSON, load into memory at startup
+No real PHI — all synthetic
+
+Module 3 — matcher_agent.py
+
+Takes ShiftRequirement + full candidate list
+Scores each candidate on: specialty match, certification match, location/license match, availability
+Returns top 10 candidates with raw scores
+
+Module 4 — credential_verifier_agent.py
+
+Takes candidate list from matcher
+Simulates credential verification: checks license expiry vs shift date, flags missing required certs
+Returns verification status per candidate: VERIFIED, EXPIRING_SOON, MISSING_CERT
+Add a mock "NPI lookup" tool call to make it feel real
+
+Module 5 — availability_agent.py
+
+Checks candidate availability[] against shift window
+Flags conflicts, confirms matches
+Returns availability status per candidate
+
+Module 6 — ranking_agent.py
+
+Takes verified + available candidates
+Uses Claude to produce a final ranked list with a one-sentence reasoning per candidate
+Output: RankedShortlist with top 5 candidates, scores, reasoning, and flags
+
+Module 7 — supervisor.py (LangGraph orchestration)
+
+Defines AgentState TypedDict
+Builds StateGraph connecting all agents
+Supervisor decides next node based on current state
+Tracks execution steps for transparency display in UI
+
+Module 8 — api.py (FastAPI)
+
+POST /match — accepts shift requirement text, runs full agent pipeline, returns ranked shortlist + execution trace
+GET /candidates — returns full synthetic candidate pool
+GET /health — ping endpoint
+WebSocket endpoint for streaming agent step updates to frontend
+
+Module 9 — React Frontend
+
+Clean, minimal UI — not a demo toy, looks like a real internal tool
+Left panel: text input for shift requirement + submit button
+Centre: live agent execution trace (streaming, step by step as each agent runs)
+Right panel: final ranked shortlist cards with candidate name, match score, verification status, reasoning
+Each card expandable to show full candidate profile
+Color coding: green (verified, available), yellow (expiring soon), red (conflict)
+Mobile responsive
+
+
+4. Technical Requirements
+python# requirements.txt
+fastapi
+uvicorn
+langgraph
+langchain
+langchain-anthropic
+pydantic
+python-dotenv
+httpx
+websockets
+# .env
+ANTHROPIC_API_KEY=your_key_here
+
+5. LangGraph State Definition
+pythonfrom typing import TypedDict, List, Optional
+
+class AgentState(TypedDict):
+    raw_requirement: str
+    parsed_requirement: Optional[dict]
+    candidate_pool: List[dict]
+    matched_candidates: List[dict]
+    verified_candidates: List[dict]
+    available_candidates: List[dict]
+    ranked_shortlist: List[dict]
+    execution_trace: List[str]
+    current_step: str
+    error: Optional[str]
+
+6. Execution Flow
+User input
+    │
+    ▼
+RequirementParserAgent  →  parsed ShiftRequirement
+    │
+    ▼
+CandidateMatcherAgent   →  top 10 scored candidates
+    │
+    ▼
+CredentialVerifierAgent →  verification status per candidate
+    │
+    ▼
+AvailabilityAgent       →  availability confirmed
+    │
+    ▼
+RankingAgent            →  final ranked shortlist with reasoning
+    │
+    ▼
+API response + streaming trace to frontend
+
+7. README Requirements
+Write a README that includes:
+
+One-line description
+Why it exists (healthcare staffing problem statement, 2-3 sentences)
+Architecture diagram (ASCII is fine)
+How to run locally
+How the agent pipeline works (brief, no jargon)
+Screenshot or GIF of the UI
+Tech stack badges
+
+The README should be good enough that a recruiter who is not technical understands what it does in 30 seconds and a technical recruiter is impressed by the architecture in 2 minutes.
+
+8. Code Quality Standards
+
+Every module has a docstring explaining what it does, inputs, outputs
+Type hints everywhere
+No hardcoded API keys
+Pydantic models for all data structures
+Errors handled gracefully — agent failures return partial results, not crashes
+Git commits are atomic and descriptive (not "fixed stuff")
+
+
+9. Demo Data — Sample Shift Request to Test With
+"Looking for an ICU RN for a night shift this Saturday in Boston, MA. 
+Must have ACLS and BLS certifications. At least 2 years of ICU experience 
+preferred. This is urgent — facility is short-staffed."
+Expected output: ranked list of 5 ICU RNs, all ACLS/BLS verified, available Saturday nights, sorted by experience and rating, with one-line reasoning per candidate.
+
+10. Deployment Checklist
+
+ GitHub repo public with clean commit history
+ README complete with architecture diagram
+ .env.example committed (not .env)
+ Deployed and accessible via public URL
+ Demo works end to end with the sample shift request above
+ No crashes on bad input
