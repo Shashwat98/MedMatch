@@ -60,7 +60,7 @@ class ShiftRequirement(BaseModel):
         default=0, description="Minimum years of experience required"
     )
     urgency: Urgency = Field(default=Urgency.MEDIUM)
-    raw_text: str = Field(description="Original free-text input from recruiter")
+    raw_text: str = Field(default="", description="Original free-text input from recruiter")
 
 
 # ---------------------------------------------------------------------------
