@@ -22,7 +22,7 @@ Healthcare facilities lose thousands of dollars per unfilled shift, yet the staf
 
 ## Demo
 
-![MedMatch UI screenshot](docs/screenshot.png)
+![MedMatch UI screenshot](docs/UI.png)
 
 *A recruiter pastes a shift requirement, watches each agent run in real time in the centre panel, and receives a ranked, reasoned shortlist on the right — all in under 15 seconds.*
 
