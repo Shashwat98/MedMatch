@@ -2,6 +2,8 @@
 
 > A multi-agent AI system that takes a plain-English shift requirement and autonomously finds, verifies, and ranks the best-matched clinicians — with every reasoning step shown live.
 
+**Live demo:** [med-match-liart.vercel.app](https://med-match-liart.vercel.app) &nbsp;|&nbsp; **API:** [medmatch-9n51.onrender.com](https://medmatch-9n51.onrender.com/health)
+
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1.x-FF6B35)
