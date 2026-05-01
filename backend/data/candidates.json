@@ -1,0 +1,1145 @@
+[
+  {
+    "id": "cand_001",
+    "name": "Maria Elena Vasquez",
+    "specialty": "ICU",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CCRN"
+    ],
+    "license_state": "MA",
+    "license_expiry": "2027-03-15",
+    "years_experience": 12,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "last_placement": "2025-03-10",
+    "rating": 4.9,
+    "npi_number": "1234567890"
+  },
+  {
+    "id": "cand_002",
+    "name": "James Okonkwo",
+    "specialty": "ICU",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CCRN",
+      "NIH Stroke Scale"
+    ],
+    "license_state": "MA",
+    "license_expiry": "2026-08-20",
+    "years_experience": 17,
+    "availability": [
+      "Monday",
+      "Wednesday",
+      "Friday",
+      "Saturday"
+    ],
+    "last_placement": "2025-04-01",
+    "rating": 4.8,
+    "npi_number": "1345678901"
+  },
+  {
+    "id": "cand_003",
+    "name": "Priya Nair",
+    "specialty": "ICU",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CCRN",
+      "NRP"
+    ],
+    "license_state": "MA",
+    "license_expiry": "2027-11-05",
+    "years_experience": 9,
+    "availability": [
+      "Tuesday",
+      "Thursday",
+      "Saturday",
+      "Sunday"
+    ],
+    "last_placement": "2025-02-14",
+    "rating": 4.7,
+    "npi_number": "1456789012"
+  },
+  {
+    "id": "cand_004",
+    "name": "David Nguyen",
+    "specialty": "ICU",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CCRN"
+    ],
+    "license_state": "MA",
+    "license_expiry": "2026-05-18",
+    "years_experience": 14,
+    "availability": [
+      "Monday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "last_placement": "2025-04-15",
+    "rating": 4.6,
+    "npi_number": "1567890123"
+  },
+  {
+    "id": "cand_005",
+    "name": "Aisha Kamara",
+    "specialty": "ICU",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CCRN",
+      "NIH Stroke Scale"
+    ],
+    "license_state": "NY",
+    "license_expiry": "2027-06-30",
+    "years_experience": 11,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "last_placement": "2025-03-22",
+    "rating": 4.9,
+    "npi_number": "1678901234"
+  },
+  {
+    "id": "cand_006",
+    "name": "Robert Blackwell",
+    "specialty": "ICU",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CCRN"
+    ],
+    "license_state": "TX",
+    "license_expiry": "2025-05-30",
+    "years_experience": 8,
+    "availability": [
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "last_placement": "2025-01-10",
+    "rating": 4.3,
+    "npi_number": "1789012345"
+  },
+  {
+    "id": "cand_007",
+    "name": "Mei-Ling Chen",
+    "specialty": "ICU",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CCRN",
+      "NRP"
+    ],
+    "license_state": "CA",
+    "license_expiry": "2028-01-22",
+    "years_experience": 20,
+    "availability": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "last_placement": "2025-04-28",
+    "rating": 5.0,
+    "npi_number": "1890123456"
+  },
+  {
+    "id": "cand_008",
+    "name": "Tom\u00e1s Rivera",
+    "specialty": "ICU",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CCRN"
+    ],
+    "license_state": "FL",
+    "license_expiry": "2026-09-14",
+    "years_experience": 6,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "last_placement": "2025-02-28",
+    "rating": 4.4,
+    "npi_number": "1901234567"
+  },
+  {
+    "id": "cand_009",
+    "name": "Keisha Thompson",
+    "specialty": "ER",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "TNCC",
+      "CEN"
+    ],
+    "license_state": "MA",
+    "license_expiry": "2025-06-15",
+    "years_experience": 13,
+    "availability": [
+      "Monday",
+      "Wednesday",
+      "Friday",
+      "Sunday"
+    ],
+    "last_placement": "2025-03-05",
+    "rating": 4.8,
+    "npi_number": "1012345678"
+  },
+  {
+    "id": "cand_010",
+    "name": "Liam O'Brien",
+    "specialty": "ER",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "TNCC",
+      "CEN"
+    ],
+    "license_state": "IL",
+    "license_expiry": "2027-04-10",
+    "years_experience": 7,
+    "availability": [
+      "Tuesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "last_placement": "2025-04-10",
+    "rating": 4.5,
+    "npi_number": "1123456789"
+  },
+  {
+    "id": "cand_011",
+    "name": "Fatima Al-Hassan",
+    "specialty": "ER",
+    "role": "NP",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "TNCC",
+      "CEN"
+    ],
+    "license_state": "TX",
+    "license_expiry": "2026-12-01",
+    "years_experience": 16,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "last_placement": "2025-01-25",
+    "rating": 4.9,
+    "npi_number": "1234509876"
+  },
+  {
+    "id": "cand_012",
+    "name": "Carlos Mendez",
+    "specialty": "ER",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CEN",
+      "TNCC"
+    ],
+    "license_state": "AZ",
+    "license_expiry": "2025-05-20",
+    "years_experience": 4,
+    "availability": [
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "last_placement": null,
+    "rating": 4.1,
+    "npi_number": "1357924680"
+  },
+  {
+    "id": "cand_013",
+    "name": "Ngozi Eze",
+    "specialty": "Med-Surg",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS"
+    ],
+    "license_state": "GA",
+    "license_expiry": "2027-07-22",
+    "years_experience": 5,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Thursday",
+      "Friday"
+    ],
+    "last_placement": "2025-04-20",
+    "rating": 4.3,
+    "npi_number": "1468013579"
+  },
+  {
+    "id": "cand_014",
+    "name": "Sarah Johansson",
+    "specialty": "Med-Surg",
+    "role": "LPN",
+    "certifications": [
+      "BLS"
+    ],
+    "license_state": "MN",
+    "license_expiry": "2026-03-08",
+    "years_experience": 3,
+    "availability": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "last_placement": "2025-02-01",
+    "rating": 3.8,
+    "npi_number": "1579124680"
+  },
+  {
+    "id": "cand_015",
+    "name": "Darius Washington",
+    "specialty": "Med-Surg",
+    "role": "CNA",
+    "certifications": [
+      "BLS"
+    ],
+    "license_state": "OH",
+    "license_expiry": "2025-06-01",
+    "years_experience": 2,
+    "availability": [
+      "Tuesday",
+      "Thursday",
+      "Saturday",
+      "Sunday"
+    ],
+    "last_placement": null,
+    "rating": 3.7,
+    "npi_number": "1680235791"
+  },
+  {
+    "id": "cand_016",
+    "name": "Ananya Sharma",
+    "specialty": "Pediatrics",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "PALS",
+      "NRP"
+    ],
+    "license_state": "MA",
+    "license_expiry": "2027-09-30",
+    "years_experience": 10,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "last_placement": "2025-03-30",
+    "rating": 4.7,
+    "npi_number": "1791346802"
+  },
+  {
+    "id": "cand_017",
+    "name": "Marcus Bell",
+    "specialty": "Pediatrics",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "PALS",
+      "NRP",
+      "ACLS"
+    ],
+    "license_state": "NC",
+    "license_expiry": "2026-11-17",
+    "years_experience": 15,
+    "availability": [
+      "Wednesday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "last_placement": "2025-04-05",
+    "rating": 4.6,
+    "npi_number": "1802457913"
+  },
+  {
+    "id": "cand_018",
+    "name": "Yuki Tanaka",
+    "specialty": "Pediatrics",
+    "role": "NP",
+    "certifications": [
+      "BLS",
+      "PALS",
+      "NRP"
+    ],
+    "license_state": "WA",
+    "license_expiry": "2028-05-11",
+    "years_experience": 19,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "last_placement": "2025-01-15",
+    "rating": 4.9,
+    "npi_number": "1913568024"
+  },
+  {
+    "id": "cand_019",
+    "name": "Isabelle Fontaine",
+    "specialty": "OR",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "CNOR",
+      "ACLS"
+    ],
+    "license_state": "LA",
+    "license_expiry": "2025-06-28",
+    "years_experience": 22,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "last_placement": "2025-04-25",
+    "rating": 4.8,
+    "npi_number": "1024679135"
+  },
+  {
+    "id": "cand_020",
+    "name": "Benjamin Goldstein",
+    "specialty": "OR",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "CNOR",
+      "ACLS"
+    ],
+    "license_state": "NY",
+    "license_expiry": "2027-02-14",
+    "years_experience": 18,
+    "availability": [
+      "Tuesday",
+      "Wednesday",
+      "Friday",
+      "Saturday"
+    ],
+    "last_placement": "2025-03-18",
+    "rating": 4.7,
+    "npi_number": "1135780246"
+  },
+  {
+    "id": "cand_021",
+    "name": "Amara Diallo",
+    "specialty": "OR",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "CNOR"
+    ],
+    "license_state": "TX",
+    "license_expiry": "2026-07-19",
+    "years_experience": 6,
+    "availability": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Sunday"
+    ],
+    "last_placement": null,
+    "rating": 4.2,
+    "npi_number": "1246891357"
+  },
+  {
+    "id": "cand_022",
+    "name": "Jessica Park",
+    "specialty": "L&D",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "NRP",
+      "ACLS"
+    ],
+    "license_state": "CA",
+    "license_expiry": "2027-10-03",
+    "years_experience": 11,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Friday",
+      "Saturday"
+    ],
+    "last_placement": "2025-02-20",
+    "rating": 4.6,
+    "npi_number": "1357902468"
+  },
+  {
+    "id": "cand_023",
+    "name": "Olusegun Adeyemi",
+    "specialty": "L&D",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "NRP",
+      "ACLS",
+      "PALS"
+    ],
+    "license_state": "IL",
+    "license_expiry": "2025-05-10",
+    "years_experience": 14,
+    "availability": [
+      "Wednesday",
+      "Thursday",
+      "Saturday",
+      "Sunday"
+    ],
+    "last_placement": "2025-04-02",
+    "rating": 4.5,
+    "npi_number": "1468013579"
+  },
+  {
+    "id": "cand_024",
+    "name": "Rachel Steinberg",
+    "specialty": "L&D",
+    "role": "NP",
+    "certifications": [
+      "BLS",
+      "NRP",
+      "ACLS"
+    ],
+    "license_state": "FL",
+    "license_expiry": "2028-03-25",
+    "years_experience": 21,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "last_placement": "2025-01-30",
+    "rating": 4.9,
+    "npi_number": "1579124680"
+  },
+  {
+    "id": "cand_025",
+    "name": "Hana Kobayashi",
+    "specialty": "Oncology",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "OCN",
+      "ACLS"
+    ],
+    "license_state": "OR",
+    "license_expiry": "2026-12-20",
+    "years_experience": 9,
+    "availability": [
+      "Tuesday",
+      "Thursday",
+      "Friday"
+    ],
+    "last_placement": "2025-03-12",
+    "rating": 4.4,
+    "npi_number": "1680235791"
+  },
+  {
+    "id": "cand_026",
+    "name": "Terrence Williams",
+    "specialty": "Oncology",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "OCN",
+      "ACLS"
+    ],
+    "license_state": "GA",
+    "license_expiry": "2027-08-07",
+    "years_experience": 13,
+    "availability": [
+      "Monday",
+      "Wednesday",
+      "Friday",
+      "Saturday"
+    ],
+    "last_placement": "2025-04-18",
+    "rating": 4.7,
+    "npi_number": "1791346802"
+  },
+  {
+    "id": "cand_027",
+    "name": "Alicia Moreno",
+    "specialty": "Oncology",
+    "role": "LPN",
+    "certifications": [
+      "BLS",
+      "OCN"
+    ],
+    "license_state": "TX",
+    "license_expiry": "2025-06-10",
+    "years_experience": 4,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "last_placement": null,
+    "rating": 3.9,
+    "npi_number": "1802457913"
+  },
+  {
+    "id": "cand_028",
+    "name": "Samuel Kim",
+    "specialty": "Cardiology",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CCRN"
+    ],
+    "license_state": "NY",
+    "license_expiry": "2026-04-16",
+    "years_experience": 16,
+    "availability": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "last_placement": "2025-02-08",
+    "rating": 4.8,
+    "npi_number": "1913568024"
+  },
+  {
+    "id": "cand_029",
+    "name": "Cynthia Brooks",
+    "specialty": "Cardiology",
+    "role": "NP",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CCRN",
+      "NIH Stroke Scale"
+    ],
+    "license_state": "PA",
+    "license_expiry": "2027-12-09",
+    "years_experience": 24,
+    "availability": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "last_placement": "2025-04-12",
+    "rating": 5.0,
+    "npi_number": "1024679135"
+  },
+  {
+    "id": "cand_030",
+    "name": "Emmanuel Asante",
+    "specialty": "Cardiology",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CCRN"
+    ],
+    "license_state": "OH",
+    "license_expiry": "2026-06-23",
+    "years_experience": 8,
+    "availability": [
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "last_placement": "2025-01-05",
+    "rating": 4.3,
+    "npi_number": "1135780246"
+  },
+  {
+    "id": "cand_031",
+    "name": "Natasha Petrov",
+    "specialty": "Neurology",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "NIH Stroke Scale"
+    ],
+    "license_state": "MA",
+    "license_expiry": "2025-05-25",
+    "years_experience": 12,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "last_placement": "2025-03-28",
+    "rating": 4.6,
+    "npi_number": "1246891357"
+  },
+  {
+    "id": "cand_032",
+    "name": "Derek Huang",
+    "specialty": "Neurology",
+    "role": "NP",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "NIH Stroke Scale",
+      "CCRN"
+    ],
+    "license_state": "CA",
+    "license_expiry": "2028-09-14",
+    "years_experience": 20,
+    "availability": [
+      "Tuesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "last_placement": "2025-04-22",
+    "rating": 4.9,
+    "npi_number": "1357902468"
+  },
+  {
+    "id": "cand_033",
+    "name": "Latoya Jackson",
+    "specialty": "Neurology",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "NIH Stroke Scale",
+      "ACLS"
+    ],
+    "license_state": "NC",
+    "license_expiry": "2027-01-28",
+    "years_experience": 7,
+    "availability": [
+      "Monday",
+      "Wednesday",
+      "Saturday",
+      "Sunday"
+    ],
+    "last_placement": null,
+    "rating": 4.2,
+    "npi_number": "1468013579"
+  },
+  {
+    "id": "cand_034",
+    "name": "Patrick Sullivan",
+    "specialty": "Float",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "PALS"
+    ],
+    "license_state": "MA",
+    "license_expiry": "2026-10-05",
+    "years_experience": 15,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "last_placement": "2025-04-29",
+    "rating": 4.7,
+    "npi_number": "1579124680"
+  },
+  {
+    "id": "cand_035",
+    "name": "Miriam Goldberg",
+    "specialty": "Float",
+    "role": "LPN",
+    "certifications": [
+      "BLS",
+      "ACLS"
+    ],
+    "license_state": "NY",
+    "license_expiry": "2025-06-22",
+    "years_experience": 3,
+    "availability": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "last_placement": null,
+    "rating": 3.6,
+    "npi_number": "1680235791"
+  },
+  {
+    "id": "cand_036",
+    "name": "Kofi Mensah",
+    "specialty": "Float",
+    "role": "CNA",
+    "certifications": [
+      "BLS"
+    ],
+    "license_state": "TX",
+    "license_expiry": "2027-04-18",
+    "years_experience": 1,
+    "availability": [
+      "Wednesday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "last_placement": null,
+    "rating": 3.7,
+    "npi_number": "1791346802"
+  },
+  {
+    "id": "cand_037",
+    "name": "Elena Popescu",
+    "specialty": "ICU",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CCRN",
+      "NIH Stroke Scale"
+    ],
+    "license_state": "PA",
+    "license_expiry": "2027-05-09",
+    "years_experience": 10,
+    "availability": [
+      "Monday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "last_placement": "2025-03-15",
+    "rating": 4.6,
+    "npi_number": "1802457913"
+  },
+  {
+    "id": "cand_038",
+    "name": "Antoine Dupont",
+    "specialty": "ICU",
+    "role": "NP",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CCRN"
+    ],
+    "license_state": "FL",
+    "license_expiry": "2026-02-27",
+    "years_experience": 18,
+    "availability": [
+      "Tuesday",
+      "Wednesday",
+      "Sunday"
+    ],
+    "last_placement": "2025-02-05",
+    "rating": 4.8,
+    "npi_number": "1913568024"
+  },
+  {
+    "id": "cand_039",
+    "name": "Sakura Yamamoto",
+    "specialty": "OR",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "CNOR",
+      "ACLS"
+    ],
+    "license_state": "WA",
+    "license_expiry": "2025-05-08",
+    "years_experience": 5,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Friday"
+    ],
+    "last_placement": "2025-01-20",
+    "rating": 4.1,
+    "npi_number": "1024679135"
+  },
+  {
+    "id": "cand_040",
+    "name": "Dakarai Moyo",
+    "specialty": "Med-Surg",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS"
+    ],
+    "license_state": "AZ",
+    "license_expiry": "2028-07-31",
+    "years_experience": 11,
+    "availability": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "last_placement": "2025-04-08",
+    "rating": 4.4,
+    "npi_number": "1135780246"
+  },
+  {
+    "id": "cand_041",
+    "name": "Bridget O'Connor",
+    "specialty": "Med-Surg",
+    "role": "LPN",
+    "certifications": [
+      "BLS"
+    ],
+    "license_state": "IL",
+    "license_expiry": "2025-06-05",
+    "years_experience": 2,
+    "availability": [
+      "Tuesday",
+      "Thursday",
+      "Friday",
+      "Sunday"
+    ],
+    "last_placement": null,
+    "rating": 3.5,
+    "npi_number": "1246891357"
+  },
+  {
+    "id": "cand_042",
+    "name": "Rajan Patel",
+    "specialty": "Cardiology",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CCRN"
+    ],
+    "license_state": "NJ",
+    "license_expiry": "2027-06-14",
+    "years_experience": 13,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Friday"
+    ],
+    "last_placement": "2025-03-03",
+    "rating": 4.5,
+    "npi_number": "1357902468"
+  },
+  {
+    "id": "cand_043",
+    "name": "Vanessa Trujillo",
+    "specialty": "Pediatrics",
+    "role": "CNA",
+    "certifications": [
+      "BLS",
+      "PALS"
+    ],
+    "license_state": "CO",
+    "license_expiry": "2026-09-01",
+    "years_experience": 2,
+    "availability": [
+      "Wednesday",
+      "Thursday",
+      "Saturday",
+      "Sunday"
+    ],
+    "last_placement": null,
+    "rating": 3.8,
+    "npi_number": "1468013579"
+  },
+  {
+    "id": "cand_044",
+    "name": "Winston Cheung",
+    "specialty": "ER",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "CEN",
+      "TNCC"
+    ],
+    "license_state": "CA",
+    "license_expiry": "2028-11-20",
+    "years_experience": 9,
+    "availability": [
+      "Monday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "last_placement": "2025-04-14",
+    "rating": 4.6,
+    "npi_number": "1579124680"
+  },
+  {
+    "id": "cand_045",
+    "name": "Adaeze Obi",
+    "specialty": "L&D",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "NRP",
+      "ACLS"
+    ],
+    "license_state": "GA",
+    "license_expiry": "2025-05-14",
+    "years_experience": 6,
+    "availability": [
+      "Tuesday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "last_placement": "2025-02-25",
+    "rating": 4.3,
+    "npi_number": "1680235791"
+  },
+  {
+    "id": "cand_046",
+    "name": "Gregory Nielsen",
+    "specialty": "Float",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "PALS",
+      "CEN"
+    ],
+    "license_state": "MN",
+    "license_expiry": "2027-03-02",
+    "years_experience": 17,
+    "availability": [
+      "Monday",
+      "Wednesday",
+      "Friday",
+      "Sunday"
+    ],
+    "last_placement": "2025-01-18",
+    "rating": 4.7,
+    "npi_number": "1791346802"
+  },
+  {
+    "id": "cand_047",
+    "name": "Leila Ahmadi",
+    "specialty": "Neurology",
+    "role": "LPN",
+    "certifications": [
+      "BLS",
+      "NIH Stroke Scale"
+    ],
+    "license_state": "TX",
+    "license_expiry": "2025-06-18",
+    "years_experience": 3,
+    "availability": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "last_placement": null,
+    "rating": 3.9,
+    "npi_number": "1802457913"
+  },
+  {
+    "id": "cand_048",
+    "name": "Dominique Leblanc",
+    "specialty": "Oncology",
+    "role": "NP",
+    "certifications": [
+      "BLS",
+      "OCN",
+      "ACLS"
+    ],
+    "license_state": "LA",
+    "license_expiry": "2028-02-16",
+    "years_experience": 23,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "last_placement": "2025-04-26",
+    "rating": 4.9,
+    "npi_number": "1913568024"
+  },
+  {
+    "id": "cand_049",
+    "name": "Isaac Ferreira",
+    "specialty": "Med-Surg",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS"
+    ],
+    "license_state": "NJ",
+    "license_expiry": "2026-08-11",
+    "years_experience": 4,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Friday",
+      "Saturday"
+    ],
+    "last_placement": "2025-03-08",
+    "rating": 4.0,
+    "npi_number": "1024679135"
+  },
+  {
+    "id": "cand_050",
+    "name": "Simone Archambault",
+    "specialty": "Float",
+    "role": "RN",
+    "certifications": [
+      "BLS",
+      "ACLS",
+      "PALS",
+      "TNCC"
+    ],
+    "license_state": "CO",
+    "license_expiry": "2027-10-29",
+    "years_experience": 25,
+    "availability": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "last_placement": "2025-04-30",
+    "rating": 5.0,
+    "npi_number": "1135780246"
+  }
+]

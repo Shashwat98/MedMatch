@@ -26,8 +26,7 @@ build/
 .next/
 *.local
 
-# Data (generated at runtime)
-backend/data/candidates.json
+# Data (candidates.json is committed so Render doesn't need an API call on cold start)
 
 # IDE
 .vscode/

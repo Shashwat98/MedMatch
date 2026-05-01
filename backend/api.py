@@ -11,6 +11,7 @@ Endpoints:
 from __future__ import annotations
 
 import asyncio
+import os
 from contextlib import asynccontextmanager
 from typing import Any, Dict, List, Optional
 
@@ -20,6 +21,14 @@ from pydantic import BaseModel, Field
 
 import candidate_store
 import supervisor as _supervisor
+
+# Configurable via ALLOWED_ORIGINS env var (comma-separated).
+# Set this in Render to your Vercel deployment URL.
+_raw_origins = os.environ.get("ALLOWED_ORIGINS", "")
+ALLOWED_ORIGINS: list[str] = (
+    [o.strip() for o in _raw_origins.split(",") if o.strip()]
+    or ["http://localhost:5173", "http://localhost:3000"]
+)
 
 
 # ---------------------------------------------------------------------------
@@ -45,10 +54,7 @@ app = FastAPI(
 # Allow localhost dev origins; add your Vercel deployment URL here before shipping
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://localhost:3000",
-    ],
+    allow_origins=ALLOWED_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
